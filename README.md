@@ -35,6 +35,22 @@ Microservices are like a team of missionaries—each with a specific role, but w
 - All code under 'edu.ensign.cs460.questhub'
 - Each service in its own folder
 
+## 🚀 Quick Start
+
+1. Open this repository in GitHub Codespaces or a compatible devcontainer.
+2. The container includes **Java 21** and **Maven 3.9.9**.
+3. Run all tests with:
+   ```bash
+   mvn clean verify
+   ```
+4. Start an individual service locally, for example:
+   ```bash
+   cd adventurer-service
+   mvn spring-boot:run
+   ```
+   The service will launch on the default Spring Boot port (8080).
+5. Use the VS Code Test Explorer or `mvn test` to rerun tests as you work.
+
 ---
 
 ## QuestHub Lab — Build Your Own Microservices
