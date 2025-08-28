@@ -7,11 +7,18 @@
       "installMaven": "true",
       "mavenVersion": "3.9.9",
       "installGradle": "false"
+    },
+    "ghcr.io/devcontainers/features/oh-my-zsh:1": {
+      "plugins": "git"
     }
   },
+  "postCreateCommand": "git config --global pull.rebase false",
   "customizations": {
     "vscode": {
-      "settings": {"java.server.launchMode": "Standard"},
+      "settings": {
+        "java.server.launchMode": "Standard",
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      },
       "extensions": [
         "vscjava.vscode-java-pack",
         "vmware.vscode-spring-boot",
@@ -19,7 +26,8 @@
         "redhat.vscode-yaml",
         "esbenp.prettier-vscode",
         "vscode-icons-team.vscode-icons",
-        "github.copilot"
+        "github.copilot",
+        "eamodio.gitlens"
       ]
     }
   }
