@@ -1,0 +1,23 @@
+{
+  "name": "Java 21 with Maven",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "none",
+      "installMaven": "true",
+      "mavenVersion": "3.9.9",
+      "installGradle": "false"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {"java.server.launchMode": "Standard"},
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "LalithK90.springboot-mvc-with-thymeleaf",
+        "shengchen.vscode-checkstyle",
+        "github.copilot"
+      ]
+    }
+  }
+}

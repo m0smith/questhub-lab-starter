@@ -1,0 +1,77 @@
+# =====================================
+# Java + Maven + Spring Boot Gitignore
+# CS-460 QuestHub Lab
+# =====================================
+
+
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Logs ###
+*.log
+*.out
+
+### IntelliJ ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+
+### VS Code ###
+.vscode/
+.history/
+
+### Operating System ###
+.DS_Store
+Thumbs.db
+
+### Spring Boot ###
+spring.log
+.env
+.env.*
+
+### Test Reports ###
+surefire-reports/
+test-output/
+jacoco.exec
+coverage/
+
+### Codespaces ###
+.devcontainer/*.log
+.devcontainer/.bash_history
+
+### Node modules (if frontend added later) ###
+node_modules/
+
+# Backup & temp files
+*.bak
+*.tmp
+*.swp
+*~
+
+# Ignore everything in any .DS_Store files recursively
+**/.DS_Store
+
+# Ignore compiled classes or files from all submodules
+**/target/
