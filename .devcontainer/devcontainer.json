@@ -8,6 +8,7 @@
       "mavenVersion": "3.9.9",
       "installGradle": "false"
     },
+
     "ghcr.io/devcontainers/features/oh-my-zsh:1": {
       "plugins": "git"
     }
